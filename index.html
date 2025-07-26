@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ᄀ자씨AUTO — Авто з Кореї в Україну</title>
+    <style>
+        body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000014; /* очень тёмный синий */
+    color: #cbd5e1; /* светло-синий/сероватый для текста */
+}
+header {
+    background-color: #0a1a3a; /* тёмно-синий */
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #10294b; /* чуть светлее тёмно-синего */
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 30px;
+}
+nav a {
+    color: #4f94d4; /* голубой для ссылок */
+    text-decoration: none;
+    font-weight: bold;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: #a3c1ff; /* более светлый голубой при наведении */
+}
+.lang-switcher {
+    text-align: right;
+    padding: 10px 20px;
+    background-color: #10294b;
+}
+.lang-switcher button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.lang-switcher img {
+    width: 24px;
+    height: 16px;
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+h1, h2 {
+    color: #4f94d4;
+}
+a {
+    color: #4f94d4;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #a3c1ff;
+}
+ul li {
+    margin-bottom: 10px;
+}
+.contact {
+    margin-top: 30px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0a1a3a;
+    margin-top: 40px;
+    color: #a3c1ff;
+}
+.image-gallery {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+.image-gallery img {
+    max-width: 300px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(79, 148, 212, 0.6);
+}
+.reviews, .works {
+    margin-top: 50px;
+}
+.review-box {
+    background-color: #10294b;
+    padding: 15px;
+    margin: 10px 0;
+    border-left: 4px solid #4f94d4;
+    color: #cbd5e1;
+}
+
+    </style>
+</head>
+<body>
+    <div class="lang-switcher">
+        <button><img src="https://flagcdn.com/w40/gb.png" alt="English"></button>
+        <button><img src="https://flagcdn.com/w40/ua.png" alt="Українська"></button>
+        <button><img src="https://flagcdn.com/w40/ru.png" alt="Русский"></button>
+    </div>
+
+    <header>
+        <h1>ᄀ자씨AUTO</h1>
+        <p>Автомобілі з Кореї під замовлення</p>
+    </header>
+
+    <nav>
+        <a href="#reviews">Відгуки</a>
+        <a href="#works">Наші роботи</a>
+    </nav>
+
+    <div class="container">
+        <h2>Хто ми?</h2>
+        <p><strong>ᄀ자씨AUTO</strong> — це компанія, яка спеціалізується на доставці авто з Південної Кореї в Україну. Прозора угода, безпечна доставка, професійний супровід.</p>
+
+        <h2>Наші послуги:</h2>
+        <ul>
+            <li>Підбір авто</li>
+            <li>Перевірка історії</li>
+            <li>Доставка та митне оформлення</li>
+            <li>Сертифікація в Україні</li>
+        </ul>
+
+        <div class="contact">
+            <h2>Контакти</h2>
+            <p>📧 Email: <a href="mailto:IGNAT-auto@gmail.com">IGNAT-auto@gmail.com</a></p>
+            <p>📞 Телефон: <a href="tel:+821042469101">+821042469101</a></p>
+        </div>
+
+        <div id="reviews" class="reviews">
+            <h2>Відгуки</h2>
+            <div class="review-box">
+                <p><strong>Ірина П.</strong>: Дуже вдячна компанії ᄀ자씨AUTO за чудову машину! Все чітко, швидко і без нервів. Рекомендую!</p>
+            </div>
+            <div class="review-box">
+                <p><strong>Олександр М.</strong>: Замовляв авто з Кореї — залишився максимально задоволений! Прозорість і підтримка на всіх етапах.</p>
+            </div>
+        </div>
+
+        <div id="works" class="works">
+            <h2>Наші роботи</h2>
+            <div class="image-gallery">
+                <img src="https://i.postimg.cc/ZCG7CQSN/2025-07-26-22-08-41.png" alt="Korean Car 1">
+                <img src="https://i.postimg.cc/t1yBzV7C/2025-07-26-22-09-15.png" alt="Korean Car 2">
+                <img src="https://i.postimg.cc/nXqd71FP/2025-07-26-22-10-01.png" alt="Korean Car 3">
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 ᄀ자씨AUTO. Всі права захищено.
+    </footer>
+</body>
+</html>
